@@ -1,0 +1,57 @@
+#my-notes{
+	width:900px;
+	min-height: 400px;
+	border: 2px solid black;
+	padding: 50px;
+}
+
+#header-note{
+	width: 100%;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+#header-note p{
+	margin: auto;
+}
+
+
+
+#add-note{
+    margin: 20px;
+}
+
+textarea{
+	resize: none;
+	width: 100%;
+}
+
+input{
+	width: 100%;
+}
+
+#wrap-block{
+	margin: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+#body-note{
+	padding: 50px 50px 0 50px;
+}
+
+.note{
+	padding-top: 30px;
+}
+
+.error{
+	border: 1px solid red;
+}
+
+.bold-text{
+	font-weight: bold;
+}
+
+#text-my-notes{
+	font-size: 25px;
+}
